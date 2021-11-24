@@ -5,7 +5,6 @@ let hoddieQty = 0;
 let tshirtQty = 0;
 let capQty = 0;
 let prod1 = [];
-let userList = [];
 let active = 0;
 let productList = [];
 let productResume =[];
@@ -156,7 +155,6 @@ function find(nameProduct) {
     }
 }
 // muestra todos los productos agregados y el precio final si existe el array 
-//guarda en productResume un array con los productos cargados independientemente si se cargo primero 1 y despues se agregaron mas, carga el total por item
 //el array productResume se  guarda y sera utilizado mas adelante con eventos
 function all() {
     let finalPrice = 0;
